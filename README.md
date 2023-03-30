@@ -1,2 +1,0 @@
-# CV_Alona_Panchenko
-CV_Alona_Panchenko
