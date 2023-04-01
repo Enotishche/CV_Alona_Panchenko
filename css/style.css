@@ -124,6 +124,7 @@ li {
 .about-me-description,
 .work-experiеnce-period {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .project-list-title {
@@ -170,4 +171,8 @@ li {
   .container-content-item {
     padding: 16px;
   }
+}
+
+.achievements {
+  color: #fff;
 }

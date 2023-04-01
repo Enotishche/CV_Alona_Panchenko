@@ -1,6 +1,6 @@
 const info = {
     img: './images/my_photo.jpg',
-    contacts: ['Contacts',['tel','+380688067043'],['email','alona.b.panchenko@gmail.com'],['git','https://github.com/Enotishche'],'https://www.linkedin.com/'],
+    contacts: ['Contacts','+380688067043','alona.b.panchenko@gmail.com',['Telegram','https://t.me/Alonka1988'],['GIT','https://github.com/Enotishche'],['LinkedIn','https://www.linkedin.com/in/alona-panchenko-17477a26b/'],'Kyiv | Ukraine' ],
     techSkills: ['Tech skills','HTML5','CSS3','GIT', 'Saas', 'Responsive/Adaptive design','JavaScript','React Hooks & Components','Node.js','REST API','React Redux','Webpack','Parcel'],
     softSkills: ['Soft skills','Attention to detail','Hardworking','Flexible', 'Cooperative','Quick learning skills','Good communication','Punctual'],
     languageSkills: ['Language skills','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
@@ -76,7 +76,8 @@ const cv = {
         dataOn: 'May 2017',
         dataOff: 'October 2021',
         place: 'Kyiv',
-        about: ''
+            about: '',
+        achievements: 'Implementation of a personal business plan for the sale of premium packages by 100 percent or more within two years of work Involvement of the salary IT project for more than 2,000 cards, the first place for the involvement of salary and card projects in the Kyiv regional administration.'
         }
     ],
     education: [
