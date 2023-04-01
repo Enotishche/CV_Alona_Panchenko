@@ -96,8 +96,7 @@ const renderSidebar = (info,NameSurname) => {
        {
         const itemList = JSON.parse(JSON.stringify(info[prop]));
         const itemTitle = itemList.shift();
-        const itemItem = itemList.map(item => `<li><span><a class="section-link" href="${item}}">${item}</a></span></li>`);
-        
+        const itemItem = itemList.map(item => `<li><span><a class="section-link" href="${Array.isArray(item) ? item[1] : item}}">${Array.isArray(item) ? item[0] : item}</a></span></li>`);
         const asideItem = document.createElement (`div`);
             asideItem.className = `container-aside-item`;
             asideItem.innerHTML = `<h3 class="aside-item-title">${itemTitle}</h3>

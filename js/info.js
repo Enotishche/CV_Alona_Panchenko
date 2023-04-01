@@ -1,6 +1,6 @@
 const info = {
-    img: './images/me.jpg',
-    contacts: ['Contacts','+380688067043','alona.b.panchenko@gmail.com','https://github.com/Enotishche','https://www.linkedin.com/'],
+    img: './images/my_photo.jpg',
+    contacts: ['Contacts',['tel','+380688067043'],['email','alona.b.panchenko@gmail.com'],['git','https://github.com/Enotishche'],'https://www.linkedin.com/'],
     techSkills: ['Tech skills','HTML5','CSS3','GIT', 'Saas', 'Responsive/Adaptive design','JavaScript','React Hooks & Components','Node.js','REST API','React Redux','Webpack','Parcel'],
     softSkills: ['Soft skills','Attention to detail','Hardworking','Flexible', 'Cooperative','Quick learning skills','Good communication','Punctual'],
     languageSkills: ['Language skills','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
@@ -36,7 +36,7 @@ const cv = {
             id:3,
             nameProj: 'Image finder',
             skillProj: 'HTML, CSS, JavaScript, React.js',
-              textProj: '++',
+            textProj: 'An application for searching images with various themes.<br> Role: Developer',
             link:'https://enotishche.github.io/goit-react-hw-04-images/',
             linkGit:'https://enotishche.github.io/goit-react-hw-04-images/'
         },
@@ -52,7 +52,7 @@ const cv = {
             id:5,
             nameProj: 'Other',
             skillProj: 'HTML, CSS, JavaScript, React.js',
-              textProj: '++',
+              textProj: 'My other works using various techniques',
             link:'https://github.com/Enotishche?tab=repositories',
             linkGit:'https://github.com/Enotishche?tab=repositories'
         }
@@ -67,16 +67,16 @@ const cv = {
         dataOn: 'March 2023',
         dataOff: 'now',
         place: 'Kyiv',
-        about: '...1'
+        about: ''
         },
         {
         id:2,
-        name: 'Senior personal consultant for medium and small businesses',
+        name: 'Senior personal consultant for medium and small business',
         Corp: 'JSC "UKRSIBBANK"',
         dataOn: 'May 2017',
         dataOff: 'October 2021',
         place: 'Kyiv',
-        about: '...2'
+        about: ''
         }
     ],
     education: [
@@ -88,8 +88,8 @@ const cv = {
         Corp: 'Kyiv University named after Boris Grinchenko',
         dataOn: 'September 2005',
         dataOff: 'June 2010',
-        degree: 'Master',
-        about: '...1'
+        degree: 'Master`s degree',
+        about: ''
         }
     ],
     addEducation: [
@@ -97,12 +97,12 @@ const cv = {
         `Additional Education`,
         {
         id:2,
-        name: 'Junior Javascript Developer',
+        name: 'Fullstack Developer',
         Corp: 'GoIT -IT school, Kyiv',
-            dataOn: 'April 2021',
-            dataOff: 'April 2023',
-            degree: 'Master',
-            about: '...1'
+            dataOn: ' 2021',
+            dataOff: ' 2023',
+            degree: '',
+            about: ''
             }
     ]
 };
