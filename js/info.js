@@ -20,7 +20,7 @@ const cv = {
             id:1,
             nameProj: 'Icecream project  ',
             skillProj: 'HTML, CSS, JavaScript',
-            textProj: 'Ice company website with responsive layout, burger menu, modal window and attractive design.<br> Role: Scrum Master',
+            textProj: 'Ice company website with responsive layout, burger menu, modal window and attractive design.<br>Role: Scrum Master, Developer',
             link: 'https://github.com/margarytak/KoRovKaTeamProject',
             linkGit: 'https://github.com/margarytak/KoRovKaTeamProject'
         },
@@ -28,7 +28,7 @@ const cv = {
             id:2,
             nameProj: 'Filmoteka',
             skillProj: 'HTML, SASS, JS, Handlebars, REST API, Parcel',
-            textProj: 'Application for choosing a movie. App component with Public and Private routes, AuthPage page logic. Deploy project on Netlify.<br> Role: Developer',
+            textProj: 'Application for choosing a movie. App component with Public and Private routes, AuthPage page logic. Deploy project on Netlify.<br>Role: Developer',
             link:'https://stig89.github.io/Filmoteka-command-project-JS-/',
             linkGit:'https://stig89.github.io/Filmoteka-command-project-JS-/'
         },
@@ -36,7 +36,7 @@ const cv = {
             id:3,
             nameProj: 'Image finder',
             skillProj: 'HTML, CSS, JavaScript, React.js',
-            textProj: 'An application for searching images with various themes.<br> Role: Developer',
+            textProj: 'An application for searching images with various themes.<br>Role: Developer',
             link:'https://enotishche.github.io/goit-react-hw-04-images/',
             linkGit:'https://enotishche.github.io/goit-react-hw-04-images/'
         },
@@ -44,7 +44,7 @@ const cv = {
             id:4,
             nameProj: 'WebSudio',
             skillProj: 'HTML, SCSS, JavaScript',
-            textProj: 'A website with a responsive layout. Role: Developer.',
+            textProj: 'A website with a responsive layout.<br>Role: Developer.',
             link:'https://enotishche.github.io/goit-markup-hw-08/',
             linkGit:'https://enotishche.github.io/goit-markup-hw-08/'
         },
@@ -52,7 +52,7 @@ const cv = {
             id:5,
             nameProj: 'Other',
             skillProj: 'HTML, CSS, JavaScript, React.js',
-              textProj: 'My other works using various techniques',
+              textProj: 'My other works using various techniques.<br>Role: Developer.',
             link:'https://github.com/Enotishche?tab=repositories',
             linkGit:'https://github.com/Enotishche?tab=repositories'
         }
@@ -67,7 +67,9 @@ const cv = {
         dataOn: 'March 2023',
         dataOff: 'now',
         place: 'Kyiv',
-        about: ''
+        about: '',
+        achievements: ``,
+        responsibilities: ['Database monitoring to ensure high performance, availability and security.','Data access management, assigning access rights and roles to database users.','Data backup and recovery, data loss protection.','Maintenance of technical documentation.'],
         },
         {
         id:2,
@@ -76,8 +78,9 @@ const cv = {
         dataOn: 'May 2017',
         dataOff: 'October 2021',
         place: 'Kyiv',
-            about: '',
-        achievements: 'Implementation of a personal business plan for the sale of premium packages by 100 percent or more within two years of work Involvement of the salary IT project for more than 2,000 cards, the first place for the involvement of salary and card projects in the Kyiv regional administration.'
+        about: '',
+        achievements: 'Implementation of a personal business plan for the sale of premium packages by 100 percent or more within two years of work Involvement of the salary IT project for more than 2,000 cards, the first place for the involvement of salary and card projects in the Kyiv regional administration.',
+        responsibilities: ['Support and preservation of the existing base of legal entities, search and attraction of new ones, as well as organization and sale of banking products to them.','Attracting and organizing the sale of banking products to individuals of the premium segment (including owners, managers, top managers of companies).',`Preservation and expansion of the client base: personal acquaintance with each client and regular maintenance of contacts, holding meetings and negotiations with clients, support for complex banking operations and client requests, ensuring quality client service, maintaining long-term relationships, analysis and control of client profitability.`],
         }
     ],
     education: [
@@ -87,8 +90,8 @@ const cv = {
         id:1,
         name: 'Teacher of Ukrainian language and literature',
         Corp: 'Kyiv University named after Boris Grinchenko',
-        dataOn: 'September 2005',
-        dataOff: 'June 2010',
+        dataOn: '2005',
+        dataOff: '2010',
         degree: 'Master`s degree',
         about: ''
         }
@@ -99,10 +102,10 @@ const cv = {
         {
         id:2,
         name: 'Fullstack Developer',
-        Corp: 'GoIT -IT school, Kyiv',
-            dataOn: ' 2021',
-            dataOff: ' 2023',
-            degree: '',
+        Corp: 'GoIT -IT school',
+            dataOn: '2021',
+            dataOff: '2023',
+            degree: 'Kyiv',
             about: ''
             }
     ]

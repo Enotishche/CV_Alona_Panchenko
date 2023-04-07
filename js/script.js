@@ -76,7 +76,8 @@ const renderContent = (cv) => {
                         <h4 class="work-experience-position">${item.name} <br><span class="work-experience-company">${item.Corp}</span></h4>
                         <p class="work-experiеnce-period">${item.dataOn} - ${item.dataOff}
                         <span class="work-experience-location"> | ${item.place ? item.place: item.degree} </span>
-                        ${item.achievements ? `<br><span class="achievements" >Achievements</span><p>${item.achievements}</p>` : ``}
+                        ${item.responsibilities ? `<br><span class="achievements" ><br>Responsibilities</span><p><ul><li><span class="responsibilities">${item.responsibilities.join(`</span></li><li><span class="responsibilities">`)}</span></li></ul></p>` : ``}
+                        ${item.achievements ? `<br><span class="achievements" ><br>Achievements</span><p>${item.achievements}</p>` : ``}
                     </div>`);
                 contentItem.innerHTML = `<h3 class="about-me-summary">${itemTitle}</h3>
                 ${itemItem.join(``)}`;};
@@ -97,7 +98,7 @@ const renderSidebar = (info,NameSurname) => {
        {
         const itemList = JSON.parse(JSON.stringify(info[prop]));
         const itemTitle = itemList.shift();
-        const itemItem = itemList.map(item => `<li><span><a class="section-link" href="${Array.isArray(item) ? item[1] : item}}">${Array.isArray(item) ? item[0] : item}</a></span></li>`);
+        const itemItem = itemList.map(item => `<li><span><a class="section-link" href="${Array.isArray(item) ? item[1] : item}">${Array.isArray(item) ? item[0] : item}</a></span></li>`);
         const asideItem = document.createElement (`div`);
             asideItem.className = `container-aside-item`;
             asideItem.innerHTML = `<h3 class="aside-item-title">${itemTitle}</h3>
