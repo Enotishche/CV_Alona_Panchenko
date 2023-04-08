@@ -1,9 +1,9 @@
 const info = {
     img: './images/my_photo.jpg',
-    contacts: ['Contacts','+380688067043','alona.b.panchenko@gmail.com',['Telegram','https://t.me/Alonka1988'],['GIT','https://github.com/Enotishche'],['LinkedIn','https://www.linkedin.com/in/alona-panchenko-17477a26b/'],'Kyiv | Ukraine' ],
+    contacts: ['Contacts','+380688067043','alona.b.panchenko@gmail.com',['Telegram','https://t.me/Alonka1988'],['GitHub','https://github.com/Enotishche'],['LinkedIn','https://www.linkedin.com/in/alona-panchenko-17477a26b/'],['Kyiv | Ukraine','https://www.google.com/maps/place/kiev,+02000/'] ],
     techSkills: ['Tech skills','HTML5','CSS3','GIT', 'Saas', 'Responsive/Adaptive design','JavaScript','React Hooks & Components','Node.js','REST API','React Redux','Webpack','Parcel'],
     softSkills: ['Soft skills','Attention to detail','Hardworking','Flexible', 'Cooperative','Quick learning skills','Good communication','Punctual'],
-    languageSkills: ['Language skills','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
+    languageSkills: ['Language','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
 };
 
 const cv = {
@@ -20,25 +20,25 @@ const cv = {
             id:1,
             nameProj: 'Icecream project  ',
             skillProj: 'HTML, CSS, JavaScript',
-            textProj: 'Ice company website with responsive layout, burger menu, modal window and attractive design.<br>Role: Scrum Master, Developer',
-            link: 'https://github.com/margarytak/KoRovKaTeamProject',
+            textProj: 'Ice company website with responsive layout, <br>burger menu, modal window and attractive design.<br>Role: Scrum Master, Developer',
+            link: 'https://margarytak.github.io/KoRovKaTeamProject/',
             linkGit: 'https://github.com/margarytak/KoRovKaTeamProject'
         },
         {
             id:2,
             nameProj: 'Filmoteka',
-            skillProj: 'HTML, SASS, JS, Handlebars, REST API, Parcel',
-            textProj: 'Application for choosing a movie. App component with Public and Private routes, AuthPage page logic. Deploy project on Netlify.<br>Role: Developer',
+            skillProj: 'HTML, SASS, JavaScript, Handlebars, Parcel',
+            textProj: 'Application for choosing a movie.<br>App component with Public and Private routes, <br>AuthPage page logic. Deploy project on Netlify.<br>Role: Developer',
             link:'https://stig89.github.io/Filmoteka-command-project-JS-/',
-            linkGit:'https://stig89.github.io/Filmoteka-command-project-JS-/'
+            linkGit:'https://github.com/STIg89/Filmoteka-command-project-JS-'
         },
         {    
             id:3,
             nameProj: 'Image finder',
             skillProj: 'HTML, CSS, JavaScript, React.js',
-            textProj: 'An application for searching images with various themes.<br>Role: Developer',
+            textProj: 'An application for searching images <br>with various themes.<br>Role: Developer',
             link:'https://enotishche.github.io/goit-react-hw-04-images/',
-            linkGit:'https://enotishche.github.io/goit-react-hw-04-images/'
+            linkGit:'https://github.com/Enotishche/goit-react-hw-04-images'
         },
         {
             id:4,
@@ -46,7 +46,7 @@ const cv = {
             skillProj: 'HTML, SCSS, JavaScript',
             textProj: 'A website with a responsive layout.<br>Role: Developer.',
             link:'https://enotishche.github.io/goit-markup-hw-08/',
-            linkGit:'https://enotishche.github.io/goit-markup-hw-08/'
+            linkGit:'https://github.com/Enotishche/goit-markup-hw-08'
         },
         {
             id:5,
@@ -88,6 +88,15 @@ const cv = {
         `Education`,
         {
         id:1,
+        name: 'Fullstack Developer',
+        Corp: 'IT school GoIT',
+        dataOn: '2021',
+        dataOff: '2023',
+        degree: 'Kyiv',
+        about: ''
+        },
+        {
+        id:2,
         name: 'Teacher of Ukrainian language and literature',
         Corp: 'Kyiv University named after Boris Grinchenko',
         dataOn: '2005',
@@ -96,19 +105,6 @@ const cv = {
         about: ''
         }
     ],
-    addEducation: [
-        'inline',
-        `Additional Education`,
-        {
-        id:2,
-        name: 'Fullstack Developer',
-        Corp: 'GoIT -IT school',
-            dataOn: '2021',
-            dataOff: '2023',
-            degree: 'Kyiv',
-            about: ''
-            }
-    ]
 };
 
 export {info, cv } 
