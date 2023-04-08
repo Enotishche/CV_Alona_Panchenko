@@ -56,7 +56,8 @@ const renderContent = (cv) => {
                         </td>
 				        <td>
                             <a href="${item.linkGit}">
-                            <span>link to GitHub </span></a><span style="color: #9099a0">[${item.skillProj}] </span>
+                            <span>link to GitHub </span></a>
+                            <span style="color: #9099a0">[${item.skillProj}]</span>
                         </td>
 			        </tr>
                     <tr>
