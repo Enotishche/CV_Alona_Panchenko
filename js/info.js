@@ -3,7 +3,7 @@ const info = {
     contacts: ['Contacts','+380688067043','alona.b.panchenko@gmail.com',['Telegram','https://t.me/Alonka1988'],['GitHub','https://github.com/Enotishche'],['LinkedIn','https://www.linkedin.com/in/alona-panchenko-17477a26b/'],['Kyiv | Ukraine','https://www.google.com/maps/place/kiev,+02000/'] ],
     techSkills: ['Tech skills','HTML5','CSS3','GIT', 'Saas', 'Responsive/Adaptive design','JavaScript','React Hooks & Components','Node.js','REST API','React Redux','Webpack','Parcel'],
     softSkills: ['Soft skills','Attention to detail','Hardworking','Flexible', 'Cooperative','Quick learning skills','Good communication','Punctual'],
-    languageSkills: ['Language','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
+    languageSkills: ['Languages','Ukrainian — native','Russian — native','English — intermediate', 'Polish — pre-intermediate']
 };
 
 const cv = {
